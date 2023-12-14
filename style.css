@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+min-height: 100vh;
+ background: #eee;
+ display: flex;
+ font-family: sans-serif;
+}
+.container{
+align-items: center;
+justify-content: center;
+line-height: 10px 10px 20px 20px;
+display: grid
+}
+.container form{
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.form-input form{
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    border: 100%;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0,0,0, 3); 
+}
+form {
+    justify-content: center;
+    line-height: 30px;
+}
+h2{
+    color: blue;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+}
